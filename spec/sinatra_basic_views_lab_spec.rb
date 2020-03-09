@@ -13,7 +13,7 @@ describe 'App' do
 
 
     it "renders index.erb" do
-      expect(last_response.body).to eq(File.read("views/index.erb"))
+      expect(last_response.body).to eq(File.read("app/views/index.erb"))
     end
 
 
